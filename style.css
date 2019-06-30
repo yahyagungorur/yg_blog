@@ -1,0 +1,127 @@
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+a{
+	color:white;
+}
+body{
+
+background:url("website-design-background.png") no-repeat fixed center;
+background-size:100%;
+}
+.header{ width:100%; height:10%;font-size:50px; color:white; text-align:center; font-family:Bradley Hand, cursive; }
+.containers{ width:100%; height:90%;}
+.left{ float:left;width:35%; height:100%; position:fixed; }
+.right{ float:right;width:65%; height:100%;}
+.foto img{ width:50%; border-radius:300px; margin-left:100px; margin-top:50px; }
+.foto img:hover{
+		opacity:0.7;
+}
+.yg{ text-align:center; font-size:60px; color:white;margin-top:20px; }l
+.yg:hover{
+	color:blue;
+}
+
+.yazi{ font-size:45px; text-align:center;}
+
+.menu{ margin-left:15px; width:440px; height:110px;}
+.menu1{float:left; width:110px; height:110px; }
+.menu2{float:left; width:110px; height:110px; }
+.menu3{float:left; width:110px; height:110px; }
+.menu4{float:left; width:110px; height:110px; }
+
+.rleft{float:left;width:50%; height:100%; }
+.rleftust{width:100%; height:50%; }
+.rleftalt{width:100%; height:50%;  }
+
+.rright{float:right;width:50%; height:100%; }
+.rrightust{width:100%; height:50%;}
+.rrightalt{width:100%; height:50%;}
+.hyazi{ font-size:26px; width:80%; margin-top:20px; background-color:black; opacity:0.9; color:red; padding:10px; border-radius:15px;}
+
+.erasmus{text-align:center; width:85%; font-size:26px;}
+.erasmus img{margin:0 auto; float:center; border-radius:20px;}
+
+.solotest{width:800px; height:410px;}
+.solofoto {width:260px; float:left; height:410px;}
+.solofoto img{ width:250px; height:345px; margin-left:10px; margin-top:50px;}
+.soloyazi{float:right; width:440px; height:410px; margin-right:80px; font-size:19px; }
+
+.acenta{width:800px; height:620px; }
+.acentafoto{width:800px; height:400px; }
+.acentafoto img{float:center; width:753px; height:372px; margin-left:25px; }
+.acentayazi{width:700px;  float:center; margin:0 auto; height:160px;font-size:20px;}
+
+
+.sosyal{float:left;margin-top:30px; margin-left:100px;}
+.sosyal img{width:60px; height:60px;}
+.sosyal img:hover{
+	opacity:0.7;
+}
+.contactus{margin-left:50px;width:380px;height:200px;}
+.contactus img{width:300px; height:195px; }
+.maps{width:500px; height:300px; float:left; margin-left:10px;}
+.address{width:366px; height:300px; float:right;  }
+.addressyazi{ margin:10px; margin-top:50px; font-size:20px;}
+
+
+.kutu{margin-left:120px; margin-top:30px;width:500px; height:30px; border-radius:3px; border:1px solid #ccc; background-color:#fff;}
+.limit1{width:90%; height:30px; background-color:#004D40;}
+.limit2{width:75%; height:30px; background-color:#00695C;}
+.limit3{width:65%; height:30px; background-color:#00796B;}
+.limit11{width:50%; height:30px; background-color:#00796B;}
+.limit4{width:60%; height:30px; background-color:#00897B;}
+.limit5{width:50%; height:30px; background-color:#009688;}
+.limit6{width:70%; height:30px; background-color:#26A69A;}
+.limit12{width:50%; height:30px; background-color:#4DB6AC;}
+.limit7{width:50%; height:30px; background-color:#4DB6AC;}
+.limit8{width:20%; height:30px; background-color:#80CBC4;}
+.limit9{width:50%; height:30px; background-color:#80CBC4;}
+.limit10{width:70%; height:30px; background-color:#80CBC4;}
+
+
+.ickutu{width:auto;height:20px; margin-top:5px; margin-left:10px;  border-radius:3px; position:absolute; padding:0px 10px;}
+
+.container {
+  position: relative;
+  width: 50%;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius:300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #121212;
+  border-radius:300px;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
